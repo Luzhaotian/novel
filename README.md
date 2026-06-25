@@ -1,20 +1,98 @@
 # 小说集 / Novel Collection
 
-📚 30 部中文短篇小说集 | 都市言情 · 古风仙侠 · 科幻未来 · 热血玄幻 · 日常治愈 · 悬疑推理
+📚 AI 生成的中文小说集 | 都市言情 · 古风仙侠 · 科幻未来 · 热血玄幻 · 日常治愈 · 悬疑推理
 
-> 收录 6 大类别共 30 部原创中文短篇小说，每部 24-30 章。涵盖都市言情、古风仙侠、科幻未来、热血玄幻、日常治愈、悬疑推理六个方向，适合喜欢沉浸式阅读的读者。
+> 收录 6 大类别共 **36 部**原创中文小说，包括 30 部短篇小说和 6 部超长篇小说。所有小说均由 AI 创作。
 
-## 目录
+---
 
-所有小说存放于 [`AI-Novel/`](AI-Novel/) 目录下，均为 AI 生成的小说：
+## 📖 内容概览
 
-| 文件夹 | 类别 | 数量 |
-|--------|------|------|
-| [`AI-Novel/Urban-Romance/`](AI-Novel/Urban-Romance/) | 都市言情 | 5 |
-| [`AI-Novel/Xianxia-Fantasy/`](AI-Novel/Xianxia-Fantasy/) | 古风仙侠 | 5 |
-| [`AI-Novel/Sci-Fi-Future/`](AI-Novel/Sci-Fi-Future/) | 科幻未来 | 5 |
-| [`AI-Novel/Action-Fantasy/`](AI-Novel/Action-Fantasy/) | 热血玄幻 | 5 |
-| [`AI-Novel/Daily-Healing/`](AI-Novel/Daily-Healing/) | 日常治愈 | 5 |
-| [`AI-Novel/Mystery-Thriller/`](AI-Novel/Mystery-Thriller/) | 悬疑推理 | 5 |
+### 短篇小说（30 部）
 
-完整目录及简介见 [Index.md](AI-Novel/Index.md)。
+每类 5 部，存放于各分类文件夹根目录下。
+
+| 分类 | 文件夹 | 数量 | 代表作 |
+|------|--------|------|--------|
+| 都市言情 | [`Urban-Romance/`](AI-Novel/Urban-Romance/) | 5 | 镜中人 · 完美犯罪 · 同一个人 |
+| 古风仙侠 | [`Xianxia-Fantasy/`](AI-Novel/Xianxia-Fantasy/) | 5 | 棋局 · 琴劫 · 画骨 |
+| 科幻未来 | [`Sci-Fi-Future/`](AI-Novel/Sci-Fi-Future/) | 5 | 记忆深潜 · 最后一封信 · 信号 |
+| 热血玄幻 | [`Action-Fantasy/`](AI-Novel/Action-Fantasy/) | 5 | 命格 · 焚骨 · 败者为王 |
+| 日常治愈 | [`Daily-Healing/`](AI-Novel/Daily-Healing/) | 5 | 花盆里的海 · 深夜书店 · 旧物修缮铺 |
+| 悬疑推理 | [`Mystery-Thriller/`](AI-Novel/Mystery-Thriller/) | 5 | 第七张牌 · 倒带 |
+
+### 超长篇小说（6 部）
+
+每部 19 个章节文件，覆盖完整故事线 + 番外，存放于各分类文件夹的子目录中。
+
+| 书名 | 分类 | 子目录 | 纯汉字 | 简介 |
+|------|------|--------|--------|------|
+| 《晚风知我意》 | 都市言情 | [`晚风知我意/`](AI-Novel/Urban-Romance/晚风知我意/) | ~3.9万 | 犯罪心理学家 × 脸盲刑警，联手揭开横跨三十年的灯塔悬案 |
+| 《万骨仙途》 | 古风仙侠 | [`万骨仙途/`](AI-Novel/Xianxia-Fantasy/万骨仙途/) | ~3.3万 | 碎骨废材少年发现体内藏有上古原初之骨，踏上弑神之路 |
+| 《深渊回响》 | 科幻未来 | [`深渊回响/`](AI-Novel/Sci-Fi-Future/深渊回响/) | ~3.3万 | 2247年海底城市发现来自未来的信号，连接两个时间线的命运 |
+| 《碎星纪》 | 热血玄幻 | [`碎星纪/`](AI-Novel/Action-Fantasy/碎星纪/) | ~3.2万 | 荒原拾荒少年融合帝级星核，踏上改变天地秩序的征途 |
+| 《山海食堂》 | 日常治愈 | [`山海食堂/`](AI-Novel/Daily-Healing/山海食堂/) | ~3.1万 | 退休主厨在海边开无菜单食堂，每一道菜治愈一个故事 |
+| 《第十三封信》 | 悬疑推理 | [`第十三封信/`](AI-Novel/Mystery-Thriller/第十三封信/) | ~3.4万 | 法医语言学家收到十三封匿名信，信上的笔迹竟全是自己的 |
+
+---
+
+## 📊 统计
+
+| 指标 | 数值 |
+|------|------|
+| 总小说数 | 36 部 |
+| 短篇小说 | 30 部 |
+| 超长篇小说 | 6 部 |
+| 超长篇总纯汉字 | **~20.1万字** |
+| 超长篇总文件数 | 114 个 |
+| 超长篇状态 | ✅ 全部完结 |
+
+---
+
+## 📂 目录结构
+
+```
+AI-Novel/
+├── Index.md                    # 短篇小说完整目录
+├── outlines.md                 # 超长篇原始大纲
+├── outlines-v2.md              # 超长篇重制版分章设计
+├── Urban-Romance/
+│   ├── 镜中人.md               # 短篇
+│   ├── 完美犯罪.md
+│   ├── ...
+│   └── 晚风知我意/             # 超长篇
+│       ├── 第001章_微笑符号.md
+│       ├── ...
+│       └── 第022章_顾长明的回忆录.md
+├── Xianxia-Fantasy/
+│   ├── 棋局.md
+│   └── 万骨仙途/
+├── Sci-Fi-Future/
+│   ├── 记忆深潜.md
+│   └── 深渊回响/
+├── Action-Fantasy/
+│   ├── 命格.md
+│   └── 碎星纪/
+├── Daily-Healing/
+│   ├── 花盆里的海.md
+│   └── 山海食堂/
+└── Mystery-Thriller/
+    ├── 第七张牌.md
+    └── 第十三封信/
+```
+
+---
+
+## 🛠 技术信息
+
+- **创作工具**：AI (Reasonix)
+- **语言**：中文
+- **文件格式**：Markdown (.md)
+- **章节命名**：`第NNN章_标题.md`
+- **仓库地址**：[github.com/Luzhaotian/novel](https://github.com/Luzhaotian/novel)
+
+---
+
+## 📜 许可
+
+所有内容由 AI 生成，版权归作者所有。
