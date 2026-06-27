@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "novel-creator": {
+      "source": "mave99a/novel-skill",
+      "sourceType": "github",
+      "skillPath": "skills/novel-creator/SKILL.md",
+      "computedHash": "c04f55138f195b16a5ca9ef42312947cc06ad8f6a31cab7112aa2e665b4581f0"
+    }
+  }
+}
